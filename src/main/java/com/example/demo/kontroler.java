@@ -9,7 +9,8 @@ public class kontroler {
     @GetMapping("/mojaFunkcja")
     public String mojaFunkcja(){
 
-        return "napis";
+        String text1 = new StringBuilder().append("napis").reverse().toString();
+        return text1;
     }
 
 }
